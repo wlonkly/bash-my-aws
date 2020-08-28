@@ -167,5 +167,6 @@ function region() {
         echo "${AWS_DEFAULT_REGION:-'AWS_DEFAULT_REGION not set'}";
     else
         AWS_DEFAULT_REGION="$inputs";
+        AWS_REGION="$inputs";
     fi
 }
